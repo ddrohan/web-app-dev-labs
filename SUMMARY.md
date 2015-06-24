@@ -1,4 +1,5 @@
 # Summary
 
 * MEAN Setup
+   * AngularJS
 
