@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * MEAN Setup
    * [AngularJS](angularjs.md)
-   * NodeJS
+   * [NodeJS](nodejs.md)
    * Express
    * MongoDB
 
