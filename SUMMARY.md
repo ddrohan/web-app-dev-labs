@@ -2,4 +2,5 @@
 
 * MEAN Setup
    * AngularJS
+   * NodeJS
 
