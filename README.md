@@ -2,7 +2,7 @@
 
 ![](webappdev.jpg)
 
-This is where you can find all the labs for **Web Applications Development**.
+This is where you can find all the labs for **Web Application Development**.
 
 We will be covering the MEAN Software Stack which essentially covers Mongo, Express, Angular and Node when developing web applications.
 
