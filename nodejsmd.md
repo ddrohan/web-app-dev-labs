@@ -1,5 +1,5 @@
 
-# Node JS
+# Node JS Setup
 
 ![](node-js.png)
 
