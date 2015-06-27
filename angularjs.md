@@ -1,5 +1,7 @@
-
 # AngularJS
+
+![](AngularJS-large.png)
+
 
 
 
