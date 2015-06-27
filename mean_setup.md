@@ -1,7 +1,5 @@
 # MEAN Setup (as at 25/06/15)
 
-![](MEAN.jpg)
+![](mean-stack.jpg)
 
-This is where you can find all the labs for **Web Applications Development**.
-
-We will be covering the MEAN Software Stack which....
+This is where you can find all the info you need to setup your MEAN build environment.
