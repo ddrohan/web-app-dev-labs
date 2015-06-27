@@ -1,5 +1,5 @@
 
-# AngularJS
+# AngularJS Setup
 
 ![](AngularJS-large.png)
 
