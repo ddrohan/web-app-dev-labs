@@ -7,6 +7,6 @@
    * [Express](express.md)
    * [MongoDB](mongodb.md)
 * [Practical Labs](practical_labs.md)
-   * [Lab 1](lab_1.md)
+   * [Lab 1 - Donation 1.0 (Angular App)](lab_1.md)
    * Lab 2
 
