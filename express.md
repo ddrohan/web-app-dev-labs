@@ -17,3 +17,4 @@ if you type
 ```
 npm install express --save
 ```
+within your project folder, it will add express to your dependencies (but we'll cover that later on).
