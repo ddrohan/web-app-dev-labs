@@ -3,5 +3,5 @@
 
 ![](node-js.png)
 
-This is where...
+Instaling Node is pretty much essential for any modern web development. 
 
