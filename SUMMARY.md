@@ -6,6 +6,6 @@
    * [NodeJS](nodejsmd.md)
    * [Express](express.md)
    * [MongoDB](mongodb.md)
-* Practical Labs
+* [Practical Labs](practical_labs.md)
    * Lab 1
 
