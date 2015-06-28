@@ -3,4 +3,8 @@
 
 ![](node-express.jpg)
 
-This is the Express Setup Page
+Before you install express, make sure you have node and npm installed already.
+
+```
+npm install -g express
+```
