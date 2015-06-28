@@ -15,6 +15,7 @@ That's it - you now have express installed!
 if you type 
 
 ```
-npm install express --save
+npm install -g express --save
 ```
+
 within your project folder, it will add express to your dependencies (but we'll cover that later on).
