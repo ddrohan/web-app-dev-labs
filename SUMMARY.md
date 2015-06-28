@@ -8,4 +8,5 @@
    * [MongoDB](mongodb.md)
 * [Practical Labs](practical_labs.md)
    * [Lab 1](lab_1.md)
+   * Lab 2
 
