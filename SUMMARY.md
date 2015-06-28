@@ -7,4 +7,5 @@
    * [Express](express.md)
    * [MongoDB](mongodb.md)
 * Practical Labs
+   * Lab 1
 
