@@ -6,4 +6,4 @@ It won't actually do much at this early stage, but it will give you an introduct
 
 Once you've completed the Lab, you're Web App should look something like this
 
-![](images/mean-stack.jpg)
+![](images/homer.gif)
