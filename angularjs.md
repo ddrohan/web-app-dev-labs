@@ -1,7 +1,7 @@
 
 # AngularJS Setup
 
-![](AngularJS-large.png)
+![](images/AngularJS-large.png)
 
 
 
