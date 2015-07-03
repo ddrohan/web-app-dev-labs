@@ -1,6 +1,6 @@
 # Objectives
 
-In this Lab, you will be required to build the first version of our Donation Case Study Web App , called **Donation 1.0**. We will build on this lab (and the Case Study) over the following weeks and add in some new features and UI Design along the way. In this version we will add in a few UI widgets on a single layout and implement some basic event handling.
+In this Lab, you will be required to build the first version of our Donation Case Study Web App, called **Donation 1.0**. We will build on this lab (and the Case Study) over the following weeks and add in some new features and UI Design along the way. In this version we will add in a few UI widgets on a single layout and implement some basic event handling.
 On completion of this lab you'll be able to
 
 design an initial layout for the app.
