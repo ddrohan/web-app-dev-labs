@@ -1,6 +1,6 @@
 # Introduction
 
-![](webappdev.jpg)
+![](images/webappdev.jpg)
 
 This is where you can find all the labs for **Web Application Development**.
 
