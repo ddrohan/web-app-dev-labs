@@ -1,5 +1,5 @@
 
-# Implement the 'About Us' Page
+# Step 3 - Implement the 'About Us' Page
 
 
 
