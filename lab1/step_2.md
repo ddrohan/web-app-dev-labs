@@ -7,4 +7,6 @@ It's not vital, but you should probably rename the extracted folder, and remove 
 
 So, once you've extracted the archive (and dragged it into Sublime Text) you should have something like this.
 
+![](../images/donationweb-1.0.start.png)
 
+We'll have a closer look at the individual files as we work through the lab.
