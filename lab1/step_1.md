@@ -6,7 +6,6 @@ On completion of this lab you'll be able to
 
 * design an initial layout for the app
 * add some basic **controllers** to manage your pages (your **views**)
-* implement basic event handling to cause some action on the click of a button.
-
-be able to 'filter' LogCat messages for testing and debugging
+* implement basic navigation using the **ngRoute** dependency
+* be able to use **templates** and the **ng-view** directive
 
