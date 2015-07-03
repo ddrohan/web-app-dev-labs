@@ -11,4 +11,5 @@
        * [Step 1 - Objectives](step_1.md)
        * [Step 2 - Setup](step_2.md)
    * Lab 2 - Donation 2.0 (Angular App)
+       * Step 1 - Objectives
 
