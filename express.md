@@ -1,7 +1,7 @@
 
 # Express Setup
 
-![](node-express.jpg)
+![](images/node-express.jpg)
 
 Before you install [express](http://www.expressjs.com), make sure you have [node and npm](https://docs.npmjs.com/getting-started/installing-node) installed already.
 
