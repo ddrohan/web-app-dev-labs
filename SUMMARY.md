@@ -9,5 +9,6 @@
 * [Practical Labs](practical_labs.md)
    * [Lab 1 - Donation 1.0 (Angular App)](lab_1.md)
        * [Step 1 - Objectives](step_1.md)
+       * Step 2 - Setup
    * Lab 2
 
