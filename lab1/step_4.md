@@ -31,7 +31,7 @@ We'll again keep this page fairly simple for the moment so create a new file (co
 ```
 ---
 
-##Wiring it all up - the 'About Us' Controller and Routing
+##Wiring it all up - the 'Contact Us' Controller and Routing
 
 This is where most of the wok needs to be done in-so-far as we need to  
 
