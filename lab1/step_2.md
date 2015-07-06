@@ -10,3 +10,10 @@ So, once you've extracted the archive (and dragged it into Sublime Text) you sho
 ![](../images/donationweb-1.0.start.png)
 
 We'll have a closer look at the individual files as we work through the lab, but first (and to see what our Angular app currently does) navigate to your **donation-web-1.0** folder and load the **index.html** page in a browser.
+
+
+## Navigation Bar
+
+You'll notice that the navigation bar has only 3 links, and 2 buttons, like so
+
+![](images/navbar.lab1.v1.png)
