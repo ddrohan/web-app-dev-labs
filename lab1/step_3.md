@@ -5,12 +5,9 @@ This step involves adding another navigation link to our navigation bar to take 
 
 ![](../images/navbar.lab1.v2.png)
 
-
-### Updating the Navigation Bar
-
-
 ---
 
+## Updating the Navigation Bar
 
 Adding the link is quite straightforward so open up your **index.html** page and add the following html code to the list of links
 
@@ -21,4 +18,4 @@ Adding the link is quite straightforward so open up your **index.html** page and
 Save the file and a quick refresh of the page in your browser should display the expected result.
 
 
-###Adding 'about.html'
+##Adding 'about.html'
