@@ -17,6 +17,6 @@
        * [Step 1 - Objectives](lab2/step_1.md)
        * [Step 2 - Setup](lab2/step_2.md)
        * [Step 3 - 'View All Donations'](lab2/step_3.md)
-       * Step 4 - 'Donate'
+       * [Step 4 - 'Donate'](lab2/step_4.md)
        * [Solution](lab2/solution.md)
 
