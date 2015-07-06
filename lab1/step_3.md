@@ -56,7 +56,7 @@ Finally, within your **app.js** file, navigate to where the other routes have be
 
 ![](../images/lab1.step3.2.png)
 
-Add the following code **AFTER** line 31 **AND BEFORE line 32 (so make some space!)
+Add the following code **AFTER** line 31 **AND BEFORE** line 32 (so make some space!)
 
 ```javascript
 // route for the about page
