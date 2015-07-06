@@ -1,6 +1,6 @@
 # Lab 2 - Donation 2.0 (Angular App)
 
-This lab involves adding proper functionality to our Angular Web App - **Donation 2.0**.
+This lab involves adding some proper functionality to our Angular Web App - **Donation 2.0**.
 
 In this lab we'll add the ability to make a Donation and be able to list all the Donations.
 
