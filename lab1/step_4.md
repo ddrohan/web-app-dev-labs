@@ -11,7 +11,7 @@ This step (which is virtually identical to the previous step) involves adding an
 Adding the link is quite straightforward so open up your **index.html** page and add the following html code to the list of links
 
 ```html
-<li><a href="#contact"><i class="fa fa-comment"></i> Contact Us</a></li>
+<li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
 
 ```
 Save the file and a quick refresh of the page in your browser should display the expected result.
