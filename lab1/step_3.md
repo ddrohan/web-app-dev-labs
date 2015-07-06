@@ -44,7 +44,7 @@ First, open up your **app.js** file and navigate to where the other controllers 
 
 ![](../images/lab1.step3.1.png)
 
-Add the following code **AFTER** the *'donationsController'* controller (line 53+)
+Add the following code **AFTER** the *'donationsController'* controller (line 53+) - feel free to change the message!
 
 ```javascript
 app.controller('aboutController', function($scope) {
