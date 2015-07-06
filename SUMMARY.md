@@ -16,7 +16,7 @@
    * [Lab 2 - Donation 2.0 (Angular App)](lab2/lab_2.md)
        * [Step 1 - Objectives](lab2/step_1.md)
        * [Step 2 - Setup](lab2/step_2.md)
-       * Step 3 - 'View All Donations'
+       * [Step 3 - 'View All Donations'](lab2/step_3.md)
        * Step 4 - 'Donate'
        * [Solution](lab2/solution.md)
 
