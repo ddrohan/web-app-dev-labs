@@ -21,7 +21,7 @@ Save the file and a quick refresh of the page in your browser should display the
 
 ##Adding 'about.html'
 
-We'll keep this page fairly simple for the moment so create a new file within the **'pages'** directory/folder of your webapp folder and place the following html inside it.
+We'll keep this page fairly simple for the moment so create a new file (about.html) within the **'pages'** directory/folder of your webapp folder and place the following html inside it.
 
 ```html
 <div class="jumbotron text-center">
