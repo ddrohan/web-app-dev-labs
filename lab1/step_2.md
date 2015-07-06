@@ -17,3 +17,14 @@ We'll have a closer look at the individual files as we work through the lab, but
 You'll notice that the navigation bar has only 3 links, and 2 buttons, like so
 
 ![](../images/navbar.lab1.v1.png)
+
+diplaying some basic info.
+
+Investigate the code behind these pages and familiarise yourself with how these pages are *controlled* as we will build on these concepts in the rest of the lab.
+
+The next few steps involve adding 2 new pages
+**
+* **About Us**
+* **Contact Us**
+ 
+
