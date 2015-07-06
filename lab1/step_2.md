@@ -20,7 +20,7 @@ You'll notice that the navigation bar has only 3 links, and 2 buttons, like so
 
 diplaying some basic info.
 
-Investigate the code behind these pages and familiarise yourself with how these pages are *controlled* as we will build on these concepts in the rest of the lab.
+Investigate the code behind these pages and familiarise yourself with how these pages are ***controlled*** as we will build on these concepts in the rest of the lab.
 
 The next few steps involve adding 2 new pages
 **
