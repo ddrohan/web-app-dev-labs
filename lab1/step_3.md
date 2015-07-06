@@ -14,6 +14,6 @@ Adding the link is quite straightforward so open up your **index.html** page and
 <li><a href="#about"><i class="fa fa-info"></i> About</a></li>
 
 ```
-
+Save the file and a quick refresh of the page in your browser should display the expected result.
 
 
