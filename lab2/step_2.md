@@ -13,17 +13,13 @@ Navigate to your **donation-web-2.0** folder and load the **index.html** page in
 
 ## Navigation Bar
 
-You'll notice that the navigation bar has only 3 links, and 2 buttons, like so
+Our Nav bar now has 5 links, and 2 buttons, like so
 
-![](../images/navbar.lab1.v1.png)
+![](../images/navbar.lab1.v3.png)
 
-diplaying some basic info.
+So the rest of the lab involves adding functionality to allow the user to
 
-Investigate the code behind these pages and familiarise yourself with how these pages are ***controlled*** as we will build on these concepts in the rest of the lab.
-
-The next few steps involve adding 2 new pages
-**
-* **About Us**
-* **Contact Us**
+* **Donate** and
+* **View All Donations**
  
 
