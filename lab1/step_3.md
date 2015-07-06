@@ -51,3 +51,17 @@ app.controller('aboutController', function($scope) {
     $scope.message = 'Look! I am an about page.';
   });
 ```
+###Adding the Routing
+Finally, within your **app.js** file, navigate to where the other routes have been implemented (around line 12 if you haven't added anything before it)
+
+![](../images/lab1.step3.2.png)
+
+Add the following code **AFTER** line 31 **AND BEFORE line 32 (so make some space!)
+
+```javascript
+// route for the about page
+            .when('/about', {
+                templateUrl : 'pages/about.html',
+                controller  : 'aboutController'
+            })
+```
