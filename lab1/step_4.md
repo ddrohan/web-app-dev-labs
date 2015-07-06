@@ -2,13 +2,13 @@
 
 This step (which is virtually identical to the previous step) involves adding another navigation link to our navigation bar to take the user to a 'Contact Us' page, like so
 
-![](../images/navbar.lab1.v2.png)
+![](../images/navbar.lab1.v3.png)
 
 ---
 
 ## Updating the Navigation Bar
 
-Adding the link is quite straightforward so open up your **index.html** page and add the following html code to the list of links
+Once again, adding the link is quite straightforward so open up your **index.html** page and add the following html code to the list of links
 
 ```html
 <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
@@ -18,13 +18,13 @@ Save the file and a quick refresh of the page in your browser should display the
 
 ---
 
-##Adding 'about.html'
+##Adding 'contact.html'
 
-We'll keep this page fairly simple for the moment so create a new file within the **'pages'** directory/folder of your webapp folder and place the following html inside it.
+We'll again keep this page fairly simple for the moment so create a new file (contact.html) within the **'pages'** directory/folder of your webapp folder and place the following html inside it.
 
 ```html
 <div class="jumbotron text-center">
-	<h1>About Us</h1>
+	<h1>Contact Us</h1>
 	
 	<p>{{ message }}</p>
 </div>
