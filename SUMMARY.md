@@ -15,4 +15,5 @@
        * [Solution](lab1/solution.md)
    * [Lab 2 - Donation 2.0 (Angular App)](lab2/lab_2.md)
        * [Step 1 - Objectives](lab2/step_1.md)
+       * Step 2 - Setup
 
