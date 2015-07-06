@@ -16,4 +16,4 @@ We'll have a closer look at the individual files as we work through the lab, but
 
 You'll notice that the navigation bar has only 3 links, and 2 buttons, like so
 
-![](images/navbar.lab1.v1.png)
+![](../images/navbar.lab1.v1.png)
