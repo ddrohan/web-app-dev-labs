@@ -65,3 +65,5 @@ Add the following code **AFTER** line 31 **AND BEFORE** line 32 (so make some sp
                 controller  : 'aboutController'
             })
 ```
+
+Once again, make sure you save your file before you refresh in the browser. If all goes to plan you should now be able to navigate to the **'About Us'** page and see your message displayed.
