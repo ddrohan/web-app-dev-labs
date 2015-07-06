@@ -30,3 +30,6 @@ We'll keep this page fairly simple for the moment so create a new file within th
 	<p>{{ message }}</p>
 </div>
 ```
+---
+
+##Wiring it all up - the About Us Controller
