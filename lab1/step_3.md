@@ -40,4 +40,6 @@ This is where most of the wok needs to be done in-so-far as we need to
 * add a new ***route*** to ensure the link is correctly associated with the **controller**
 
 ###Adding the Controller
-First, open up your **app.js** file and navigate to where the other controllers have been implemented
+First, open up your **app.js** file and navigate to where the other controllers have been implemented (around line 36 if you haven't added anything)
+
+![](../images/lab1.step3.1.png)
