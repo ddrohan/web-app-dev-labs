@@ -20,3 +20,13 @@ Save the file and a quick refresh of the page in your browser should display the
 ---
 
 ##Adding 'about.html'
+
+We'll keep this page fairly simple for the moment so create a new file within the pages folder of your webapp folder and place the following html inside it.
+
+```html
+<div class="jumbotron text-center">
+	<h1>About Us</h1>
+	
+	<p>{{ message }}</p>
+</div>
+```
