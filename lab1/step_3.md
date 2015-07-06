@@ -5,10 +5,15 @@ This step involves adding another navigation link to our navigation bar to take 
 
 ![](../images/navbar.lab1.v2.png)
 
+
+### Updating the Navigation Bar
+
 Adding the link is quite straightforward so open up your **index.html** page and add the following html code to the list of links
 
 ```html
 <li><a href="#about"><i class="fa fa-info"></i> About</a></li>
 
 ```
+
+
 
