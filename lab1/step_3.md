@@ -34,7 +34,7 @@ We'll keep this page fairly simple for the moment so create a new file (about.ht
 
 ##Wiring it all up - the 'About Us' Controller and Routing
 
-This is where most of the wok needs to be done in-so-far as we need to  
+This is where most of the work needs to be done in-so-far as we need to  
 
 * create a new ***controller*** object to manage the page and
 * add a new ***route*** to ensure the link is correctly associated with the **controller**
