@@ -14,7 +14,7 @@ Have a quick look again at our list we declared in our **factory**, just to fami
 
 ![](../images/lab2.step3.1.png)
 
-Now we need to implement a function which will 'add' a donation made, to the above list. Here's the majority of the code you need, but try and work out what you need to complete the function (fill in the ...'s).
+Now we need to implement a function which will 'add' a donation made, to the above list. Here's the majority of the code you need, but try and work out what you need to complete the function (fill in the ...'s) and where to put it.
 
 ```javascript
 
