@@ -38,4 +38,6 @@ what function gets triggered when the Donate Button is clicked (when the form is
 
 Also, what form **data** is submitted (look for the **ng-model** directives)?
 
-This is the information you need to write the callback function within the controller.
+This is the information you need to write the callback function within the controller (below).
+
+![](../images/lab2.step4.2.png)
