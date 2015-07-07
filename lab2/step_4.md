@@ -57,7 +57,7 @@ So if you modify your controller to look something like this
 
 ![](../images/lab2.step4.3.png)
 
-once you add a donation you should be redirected to the relevant page.
+once you add a donation you should be redirected to the relevant page. Again, just be clear about how this is achieved before moving on to the next step.
 
 
 
