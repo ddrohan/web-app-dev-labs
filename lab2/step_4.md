@@ -30,6 +30,12 @@ The next step is to somehow 'wire up' the click of the Donate Button on our view
 
 ## Updating our *donateController* - the 'addDonation' Callback
 
-Firstly, have a look at our existing donate.html page, and specifically our 
+Firstly, have a look at our existing donate.html page, and specifically our form 
 
 ![](../images/lab2.step4.1.png)
+
+what function gets triggered when the Donate Button is clicked (when the form is submitted)?
+
+Also, what form **data** is submitted (look for the **ng-model** directives)?
+
+This is the information you need to write the callback function within the controller.
