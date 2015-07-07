@@ -51,7 +51,7 @@ $scope.addDonation = function(){
       };
 ```
 
-Once you've completed the 'add' feature, you'll notice that you must manually select the 'View All Donations' link to see your newly added donation. To make thinks a bit more user-friendly we can use the ***$location*** object to *autmatically* redirect the user to the page we want.
+Once you've completed the 'add' feature, you'll notice that you must manually select the 'View All Donations' link to see your newly added donation. To make thinks a bit more user-friendly we can use the ***$location*** object to *automatically* redirect the user to the page we want.
 
 So if you modify your controller to look something like this
 
