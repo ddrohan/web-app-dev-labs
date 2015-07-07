@@ -4,3 +4,6 @@ With any application that will be listing some data it's always a good idea to g
 
 So the first feature we'll implement is our **'View All Donation'** and initially list a few 'donations' we'll create in our **factory**. Before we start, have a look again at what we want our completed page to look like
 
+![](../images/donationwebapp1.jpg)
+
+We want to initially display 2 records (just so we know it works) on our page in the format above and also be able to delete the record (and eventually edit it).
