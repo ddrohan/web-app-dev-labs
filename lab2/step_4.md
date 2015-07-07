@@ -14,15 +14,13 @@ Have a quick look again at our list we declared in our **factory**, just to fami
 
 ![](../images/lab2.step3.1.png)
 
-We need to somehow allow our 'donationsController' access to this list so that we can display it on our donations page. We can achieve this through ***Dependency Injection*** so replace your existing controller with the following
+Now we need to implement a function which will 'add' a donation made, to the above list. Here's the majority of the code you need, but try and work out what you need to complete the function.
 
 ```javascript
 
-app.controller('donationsController', function($scope, donations) {
-    // create a message to display in our view
-    $scope.message = 'Donations Page!';
-    $scope.donations = donations;
-  });
+donations.add = function(paymenttype, amount){
+    donations.push({paymenttype: paymenttype, amount: amount, upvotes: 0});
+  };
 
 ```
 Be clear about what is happening here and how we use the ***$scope*** object to allow access in our ***view*** (our donations.html).
