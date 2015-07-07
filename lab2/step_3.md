@@ -35,3 +35,13 @@ Be clear about what is happening here and how we use the ***$scope*** object to 
 
 Everything we need to display our list of donations is already implemented in our **'donations.html'** page (as per the solution) but you should investigate how we actually achieve the rendering of the list and familarise yourself with the different ***angular directives*** used in the solution, below is an extract from the page but it's worth having a look at the complete html at some stage.
 
+![](../images/lab2.step3.2.png)
+
+You should pay particular attention to the following directives
+
+* **ng-controller**
+* **ng-repeat**
+* **ng-click**
+
+and how we display the individual properties of each donation via the current ***scope***.
+
