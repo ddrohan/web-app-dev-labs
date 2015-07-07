@@ -8,7 +8,7 @@ So, once you've extracted the archive (and dragged it into Sublime Text) you sho
 
 ![](../images/donationweb-2.0.start.png)
 
-Navigate to your **donation-web-2.0** folder and load the **index.html** page in a browser to confirm everything is as it should be to begin with.
+Navigate to your **donationweb-2.0** folder and load the **index.html** page in a browser to confirm everything is as it should be to begin with.
 
 
 ## Navigation Bar
