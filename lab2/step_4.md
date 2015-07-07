@@ -41,3 +41,18 @@ Also, what form **data** is submitted (look for the **ng-model** directives)?
 This is the information you need to write the callback function within the controller (below).
 
 ![](../images/lab2.step4.2.png)
+
+To help you along, you'll need to ***inject*** the 'donations' list into the controller (similar to the previous lab with the donationsController) to get access to the list and you'll also need to add the following function to the controller - which you need to complete.
+
+```javascript
+$scope.addDonation = function(){
+          donations.add(... , ...);
+          
+      };
+```
+
+
+
+
+
+
