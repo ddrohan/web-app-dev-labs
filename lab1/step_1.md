@@ -8,5 +8,5 @@ On completion of this lab you'll be able to
 * add some basic **controllers** to manage your pages (your **views**)
 * implement basic navigation using the **ngRoute** dependency
 * be able to use **templates** 
-* be able to use the **ng-view** and **ng-controlle** directives
+* be able to use the **ng-view** and **ng-controller** directives
 
