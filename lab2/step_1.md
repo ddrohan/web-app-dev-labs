@@ -8,6 +8,7 @@ On completion of this lab you'll be able to
 * list all donations 
 * add and delete a single donation
 * be able to use **callbacks**
-* be able to use **templates** and the **ng-view** directive
+* be able to use **templates** 
+* be able to use the **ng-view**, **ng-model**, **ng-repeat** (and a few other) directives
 
 
