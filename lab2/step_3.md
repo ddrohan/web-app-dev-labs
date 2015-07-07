@@ -14,3 +14,16 @@ We want to initially display 2 records (just so we know it works) on our page in
 
 Have a quick look again at our list we declared in our **factory**, just to familiarise yourself with the data you'll be displaying
 
+![](../images/lab2.step3.1.png)
+
+We need to somehow allow our 'donationsController' access to this list so that we can display it on our donations page. We can achieve this through ***Dependency Injection*** so replace your existing controller with the following
+
+```javascript
+
+app.controller('donationsController', function($scope, donations) {
+    // create a message to display in our view
+    $scope.message = 'Donations Page!';
+    $scope.donations = donations;
+  });
+
+```
