@@ -27,3 +27,4 @@ app.controller('donationsController', function($scope, donations) {
   });
 
 ```
+Be clear about what is happening here and how we use the ***$scope*** object to allow access in our ***view*** (our donations.html).
