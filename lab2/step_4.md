@@ -23,8 +23,7 @@ donations.add = function(... , ...){
   };
 
 ```
-Be clear about what is happening here and how we use the ***$scope*** object to allow access in our ***view*** (our donations.html).
-
+The next step is to somehow 'wire up' the click of the Donate Button on our view, with the add function you just implemented - we'll achieve this through a ***callback function***.
 ---
 
 ## Updating our *donateController* - the 'addDonation' Callback
