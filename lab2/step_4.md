@@ -4,7 +4,7 @@ So now that we can display a list of the donations initially set up, the second 
 
 ![](../images/donationwebapp2.jpg)
 
-We want to initially display 2 records (just so we know it works) on our page in the format above and also be able to delete the record (and eventually edit it). To achieve this we need to pass or ***inject*** our list of donations object into our **'donationsController'** - so let's do that.
+There's a bit more work involved to get this feature implemented, so the first thing we'll do is write a **callback** function to allow us to *add* a donation to our list (in the factory).
 
 ---
 
