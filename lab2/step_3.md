@@ -10,4 +10,7 @@ We want to initially display 2 records (just so we know it works) on our page in
 
 ---
 
-## Updating the Navigation Bar
+## Setting Up our List
+
+Have a quick look again at our list we declared in our **factory**, just to familiarise yourself with the data you'll be displaying
+
