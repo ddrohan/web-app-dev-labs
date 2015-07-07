@@ -19,4 +19,5 @@
        * [Step 3 - 'View All Donations'](lab2/step_3.md)
        * [Step 4 - 'Donate'](lab2/step_4.md)
        * [Solution](lab2/solution.md)
+       * Step 5 - 'Delete'
 
