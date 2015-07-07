@@ -30,15 +30,6 @@ The next step is to somehow 'wire up' the click of the Donate Button on our view
 
 ## Updating our *donateController* - the 'addDonation' Callback
 
-Everything we need to display our list of donations is already implemented in our **'donations.html'** page (as per the solution) so test it out, but you should investigate how we actually achieve the rendering of the list and familarise yourself with the different ***angular directives*** used in the solution, below is an extract from the page but it's worth having a look at the complete html at some stage.
+Firstly, have a look at our existing donate.html page, and specifically our 
 
-![](../images/lab2.step3.2.png)
-
-You should pay particular attention to the following directives
-
-* **ng-controller**
-* **ng-repeat**
-* **ng-click**
-
-and how we display the individual properties of each donation via the current ***scope***.
-
+![](../images/lab2.step4.1.png)
