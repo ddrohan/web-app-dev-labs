@@ -29,7 +29,7 @@ Be clear about what is happening here and how we use the ***$scope*** object to 
 
 ---
 
-## Displaying our 'List of Donations'
+## Updating our *donateController* - the 'addDonation' Callback
 
 Everything we need to display our list of donations is already implemented in our **'donations.html'** page (as per the solution) so test it out, but you should investigate how we actually achieve the rendering of the list and familarise yourself with the different ***angular directives*** used in the solution, below is an extract from the page but it's worth having a look at the complete html at some stage.
 
