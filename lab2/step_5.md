@@ -28,9 +28,9 @@ The next step is to 'wire up' the click of the Delete Button on our view, with t
 
 ## Updating our *donationsController* - the 'deleteDonation' Callback
 
-Firstly, have a look at our existing donations.html page, and specifically our form 
+Firstly, have a look at our existing donations.html page, and specifically the **ng-click** directives associated with the delete button and the 'thumbs Up' glyphicon.
 
-![](../images/lab2.step4.1.png)
+![](../images/lab2.step5.1.png)
 
 what function gets triggered when the Donate Button is clicked (when the form is submitted)?
 
