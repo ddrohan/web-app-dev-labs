@@ -4,7 +4,7 @@ Now that we can display a list of our donations and add an individual donation, 
 
 ![](../images/donationwebapp1.jpg)
 
-There's a bit more work involved to get this feature implemented, so the first thing we'll do is write a function to allow us to *add* a donation to our list (in the factory).
+What we need to do here is write 2 functions, one called **deleteDonation** to *delete* a donation and another called **incrementUpvotes** to increase its *upvotes* property - both of which need to be added to the factory.
 
 ---
 
