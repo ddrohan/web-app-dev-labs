@@ -32,20 +32,15 @@ Firstly, have a look at our existing donations.html page, and specifically the *
 
 ![](../images/lab2.step5.1.png)
 
-what function gets triggered when the Donate Button is clicked (when the form is submitted)?
+These are the functions you need to write within the donations controller.
 
-Also, what form **data** is submitted (look for the **ng-model** directives)?
-
-This is the information you need to write the callback function within the controller (below).
-
-![](../images/lab2.step4.2.png)
-
-To help you along, you'll need to ***inject*** the 'donations' list into the controller (similar to the previous lab with the donationsController) to get access to the list and you'll also need to add the following function to the controller - which you need to complete.
+To help you along, you need to add the following function to the controller - which you need to complete.
 
 ```javascript
-$scope.addDonation = function(){
-          donations.add(... , ...);
-          
+   $scope.delete = function(donation){
+      if (confirm("Are you sure you want to delete?")) {
+          donations.deleteDonation(donation);
+         }       
       };
 ```
 
