@@ -22,13 +22,13 @@ donations.deleteDonation = function(donation) {
 
 ```
 
-The next step is to somehow 'wire up' the click of the Donate Button on our view, with the add function you just implemented - we'll achieve this through a ***callback function***.
+The next step is to 'wire up' the click of the Delete Button on our view, with the deleteDonation function you just implemented - we'll achieve this, once again, through a ***callback function***.
 
 ---
 
-## Updating our *donateController* - the 'addDonation' Callback
+## Updating our *donationsController* - the 'deleteDonation' Callback
 
-Firstly, have a look at our existing donate.html page, and specifically our form 
+Firstly, have a look at our existing donations.html page, and specifically our form 
 
 ![](../images/lab2.step4.1.png)
 
