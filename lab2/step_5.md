@@ -61,6 +61,8 @@ donations.incrementUpvotes = function(donation) {
 ```
 but try and have a go at the function for our controller.
 
+**Observe what happens when you click on the thumb icon....**
+
 ---
 As a wrap up, your completed **factory** should look like this
 
