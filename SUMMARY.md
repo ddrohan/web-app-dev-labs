@@ -21,6 +21,6 @@
        * [Step 5 - 'Delete' and 'UpVotes'](lab2/step_5.md)
        * [Solution](lab2/solution.md)
    * [Lab 3 - Donation 3.0 (Express, Node & Angular App)](lab3/lab_3.md)
-       * Step 1 - Objectives
+       * [Step 1 - Objectives](lab3/step_1.md)
        * Step 2 - Setup
 
