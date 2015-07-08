@@ -7,7 +7,7 @@ Now that we can display a list of our donations and add an individual donation, 
 What we need to do here is write 2 functions, one called **deleteDonation** to *delete* a donation and another called **incrementUpvotes** to increase its *upvotes* property - both of which need to be added to our factory.
 
 ---
-
+ 
 ## The *factory* 'deleteDonation' function
 
 Here's the implemented function all ready to go, so just insert it correctly into our factory object in app.js. Make sure you understand how this works and more importantly the relevance of passing a ***donation*** reference to the function
