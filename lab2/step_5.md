@@ -8,18 +8,16 @@ What we need to do here is write 2 functions, one called **deleteDonation** to *
 
 ---
 
-## The *factory* 'add' function
+## The *factory* 'deleteDonation' function
 
-Have a quick look again at our list we declared in our **factory**, just to familiarise yourself with the data you'll be displaying
-
-![](../images/lab2.step3.1.png)
-
-Now we need to implement a function which will 'add' a donation made, to the above list. Here's the majority of the code you need, but try and work out what you need to complete the function (fill in the ...'s) and where to put it.
+Here's the implemented function all ready to go, so just insert it correctly into our factory object in app.js
 
 ```javascript
 
-donations.add = function(... , ...){
-    donations.push(...);
+donations.deleteDonation = function(donation) {
+    var index = donations.indexOf(donation);
+    console.log( "Index is : " + index );
+    donations.splice(index, 1);  
   };
 
 ```
