@@ -39,7 +39,7 @@ To help you along, you need to add the following function to the controller - wh
 ```javascript
    $scope.delete = function(donation){
       if (confirm("Are you sure you want to delete?")) {
-          donations.deleteDonation(donation);
+          //Call the factory delete function here
          }       
       };
 ```
