@@ -10,7 +10,7 @@ What we need to do here is write 2 functions, one called **deleteDonation** to *
 
 ## The *factory* 'deleteDonation' function
 
-Here's the implemented function all ready to go, so just insert it correctly into our factory object in app.js
+Here's the implemented function all ready to go, so just insert it correctly into our factory object in app.js. Make sure you understand how this works and more importantly the relevance of passing a ***donation*** reference to the function
 
 ```javascript
 
