@@ -22,5 +22,5 @@
        * [Solution](lab2/solution.md)
    * [Lab 3 - Donation 3.0 (Express, Node & Angular App)](lab3/lab_3.md)
        * [Step 1 - Objectives](lab3/step_1.md)
-       * Step 2 - Setup
+       * [Step 2 - Setup](lab3/step_2.md)
 
