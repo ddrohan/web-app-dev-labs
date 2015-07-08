@@ -44,15 +44,36 @@ To help you along, you need to add the following function to the controller - wh
       };
 ```
 
-Once you've completed the 'add' feature, you'll notice that you must manually select the 'View All Donations' link to see your newly added donation. To make thinks a bit more user-friendly we can use the ***$location*** object to *automatically* redirect the user to the page we want.
+Once you've completed the 'delete' feature, save the file and test it out by adding, and then deleting a few donations.
 
-So if you modify your controller to look something like this
+---
 
-![](../images/lab2.step4.3.png)
+## Updating our *donationsController* - the 'incrementUpvotes' Callback
 
-once you add a donation you should be redirected to the relevant page. Again, just be clear about how this is achieved before moving on to the next step.
+The last feature to implement is to give a particular donation the *thumbs Up*, by implementing the **incrementUpvotes** function in our **factory** and our **controller**.
+
+Here's the function for our factory
+
+```javascript
+donations.incrementUpvotes = function(donation) {
+     donation.upvotes += 1;
+  };
+```
+but try and have a go at the function for our controller.
+
+---
+As a wrap up, your completed **factory** should look like this
+
+![](../images/lab2.step5.2.png)
+
+and your **controller** should look like this
+
+![](../images/lab2.step5.3.png)
 
 
+```
+
+```
 
 
 
