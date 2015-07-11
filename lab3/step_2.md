@@ -19,7 +19,7 @@ Now, follow the instructions to install the dependencies, and you should get som
 
 ![](../images/lab3.step2.2.png)
 
-So, once you've dragged it into Sublime Text you should have something like this.
+And once you've dragged it into Sublime Text you should have something like this
 
 ![](../images/donationweb-3.0.start.png)
 
