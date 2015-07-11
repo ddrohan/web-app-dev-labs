@@ -15,7 +15,7 @@ and you should get something like this
 
 As you can see, this will auto-generate a node web app, creating all the necessary folders and file we need to get started. *-ejs* specifies we want to use the **Embedded JavaScript Templates** and *--save* just ensures the dependencies are added to our *package.json* file (more on this later).
 
-Now, follow the instructions to install the dependencies, and you should get something like this
+Now, follow the instructions to install the dependencies, and you should get something like this (+ a lot more!)
 
 ![](../images/lab3.step2.2.png)
 
@@ -23,8 +23,16 @@ And once you've dragged it into Sublime Text you should have something like this
 
 ![](../images/donationweb-3.0.start.png)
 
-Navigate to your **donationweb-3.0** folder and load the **index.html** page in a browser to confirm everything is as it should be to begin with.
+Finally, navigate to your **donationweb-3.0** folder and type the following to launch the server
 
+```
+npm start
+
+```
+
+if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and see the following
+
+![](../images/lab3.step2.3.png)
 
 ## Navigation Bar
 
