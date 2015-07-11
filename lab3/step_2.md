@@ -34,13 +34,4 @@ if everything goes to plan you should be able to visit [http://localhost:3000](h
 
 ![](../images/lab3.step2.3.png)
 
-## Navigation Bar
-
-Our Nav bar now has 5 links, and 2 buttons, like so
-
-![](../images/navbar.lab1.v3.png)
-
-So the rest of the lab involves adding functionality to allow the user to
-
-* **Donate** and
-* **View All Donations**
+The next step will involve bringing in our angular files to get the front-end implemented.
