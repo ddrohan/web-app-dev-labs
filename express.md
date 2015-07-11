@@ -10,7 +10,14 @@ Go to the command line and type the following
 ```
 npm install -g express
 ```
-That's it - you now have express installed!
+That's it - you now have express installed! (globally (-g) )
+
+It's probably worth installing the generator package as well
+
+```
+npm install -g express-generator
+
+```
 
 if you type 
 
