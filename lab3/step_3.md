@@ -26,11 +26,19 @@ If we point our browser to [http://localhost:3000](http://localhost:3000) we sho
 
 ## Setting Up the rest of our Angular Pages
 
-You've problably guessed by now that none of the Nav Bar links are working, so we need to import and rename all our existing html files to fix this.
+You've problably guessed by now that none of the Nav Bar links are working, and we can't even see our homepage, so we need to import and rename all our existing html files to fix this.
 
 To keep things a bit organised, firstly, create a new folder ***pages/*** in the ***public/*** directory. Then copy and rename the rest of our files into this folder ***public/pages/***
 
 Once completed, your project should look something like this
+
+![](../images/lab3.step3.1.png)
+
+Now, point you browser at [http://localhost:3000](http://localhost:3000) again and see what you get?
+
+It's still not working? Can you figure out the last modification you need to make?
+
+***(Hint - have a closer look at your routing in your angularApp.js)***
 
 
 
