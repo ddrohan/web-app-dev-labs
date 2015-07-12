@@ -40,6 +40,8 @@ It's still not working? Can you figure out the last modification you need to mak
 
 ***(Hint - have a closer look at your routing in your angularApp.js)***
 
+You'll notice that the donate and list donations features aren't fully functional but that's due to the current structure of our app - which we'll fix later on.
+
 
 
 
