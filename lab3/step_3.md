@@ -28,7 +28,7 @@ If we point our browser to [http://localhost:3000](http://localhost:3000) we sho
 
 You've problably guessed by now that none of the Nav Bar links are working, so we need to import and rename all our existing html files to fix this.
 
-To keep things a bit organised, firstly, create a new folder ***pages/*** in the ***public/javascripts/*** directory. Then copy and rename the rest of our files into this folder.
+To keep things a bit organised, firstly, create a new folder ***pages/*** in the ***public/*** directory. Then copy and rename the rest of our files into this folder ***public/pages/***
 
 Once completed, your project should look something like this
 
