@@ -24,5 +24,5 @@
        * [Step 1 - Objectives](lab3/step_1.md)
        * [Step 2 - Setup](lab3/step_2.md)
        * [Step 3 - Importing our Angular Project](lab3/step_3.md)
-       * Step 4 - Refactoring our Controllers
+       * [Step 4 - Refactoring our Controllers](lab3/step_4.md)
 
