@@ -20,7 +20,7 @@ npm start
 
 ```
 
-If we point our browser to http://localhost:3000 we should be greeted with our Angular application.
+If we point our browser to http://localhost:3000 we should be greeted with the Home Page of our Angular application.
 
 
 
