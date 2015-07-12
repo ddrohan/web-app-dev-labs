@@ -14,7 +14,7 @@ and you should get something like this
 
 ![](../images/lab3.step2.1.png)
 
-As you can see, this will auto-generate a node web app, creating all the necessary folders and file we need to get started. *-ejs* specifies we want to use the **Embedded JavaScript Templates** and *--save* just ensures the dependencies are added to our *package.json* file (more on this later).
+As you can see, this will auto-generate a node web app, creating all the necessary folders and files we need to get started. *--ejs* specifies we want to use the **Embedded JavaScript Templates** (instead of the default which is Jade) and *--save* just ensures the dependencies are added to our *package.json* file (more on this later).
 
 Now, follow the instructions to install the dependencies, and you should get something like this (+ a lot more!)
 
