@@ -22,5 +22,17 @@ npm start
 
 If we point our browser to [http://localhost:3000](http://localhost:3000) we should be greeted with the Home Page of our Angular application.
 
+---
+
+## Setting Up the rest of our Angular Pages
+
+You've problably guessed by now that none of the Nav Bar links are working, so we need to import and rename all our existing html files to fix this.
+
+To keep things a bit organised, firstly, create a new folder ***pages/*** in the ***public/javascripts/*** directory. Then copy and rename the rest of our files into this folder.
+
+Once completed, your project should look something like this
+
+
+
 
 
