@@ -5,5 +5,8 @@ Our current version of Donation isn't fully functional mainly due to the fact th
 
 The first thing we need to do is create a ***seperate controller*** for each of our views so navigate to the ***public/javascripts/*** directory and create a new folder called ***controllers/***.
 
-Now, we need to move all the **controllers** in our single **angularApp.js** file into their own respective files, so create the following inside your ***controllers*** folder
+We need to move all the **controllers** in our single **angularApp.js** file into their own respective files, so create the following inside your ***controllers*** folder
 
+![](../images/controllers.png)
+
+Now, for each 
