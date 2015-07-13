@@ -26,5 +26,5 @@
        * [Step 3 - Importing our Angular Project](lab3/step_3.md)
        * [Step 4 - Refactoring our Controllers](lab3/step_4.md)
        * Step 5 - Updating our Views
-       * Solution
+       * [Solution](lab3/solution.md)
 
