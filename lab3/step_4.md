@@ -31,5 +31,14 @@ So initially, have a go at ***contactcontroller.js*** and ***maincontroller.js**
 
 There's a bit more work involved with last two controllers (***donatecontroller.js*** & ***donationscontroller.js***) so we'll complete those separately.
 
-It's probably worth testing your app again just to confirm that the controllers you've updated still work so 
+It's probably worth testing your app again just to confirm that the controllers you've updated still work so point your browser at [http://localhost:3000](http://localhost:3000) and try it out.
+
+---
+
+## Our 'donationsController' and Dependency Injection (D.I.)
+To begin with, take the same approach with this controller as the previous ones, just move it into its own file and add the line of code at the top, so you'll have something like this
+
+```javascript
+
+```
 
