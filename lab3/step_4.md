@@ -64,4 +64,25 @@ The problem lies in the fact that this controller is in a separate file so the *
 
 **This wasn't an issue in our Angular version as everything was inside the one file (same scope).**
 
+So here are the changes we need to make
 
+```javascript
+var app = angular.module('DonationWebApp');
+
+app.controller('donationsController', ['$scope','donations', function($scope, donations) {
+    // create a message to display in our view
+    $scope.message = 'Donations Page!';
+    $scope.donations = donations;
+
+      $scope.delete = function(donation){
+      if (confirm("Are you sure you want to delete? : ")) {
+          donations.deleteDonation(donation);
+         }       
+      };
+
+        $scope.incrementUpvotes = function(donation){
+          donations.incrementUpvotes(donation);
+      };
+  }
+  ]);
+```
