@@ -1,8 +1,7 @@
 
 # Step 5 - Updating our Views
 
-
-
+We only need to modify our **donate.ejs** view and there's actually only 2 changes needed to be made, so if you understood the last step, you should have no problem with this step :-) 
 
 ---
 
