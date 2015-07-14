@@ -86,3 +86,5 @@ app.controller('donationsController', ['$scope','donations', function($scope, do
   }
   ]);
 ```
+Notice how we *inject* **$scope** and **donations** into our controller and we need to do the same with our **donateController** controller.
+
