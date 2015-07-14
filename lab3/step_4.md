@@ -60,4 +60,8 @@ app.controller('donationsController', function($scope, donations) {
 ```
 If you try and test it, it may still not be functioning correctly - can you explain why, and how to fix it?
 
-The problem lies in the fact that this controller is in a separate file so the ***
+The problem lies in the fact that this controller is in a separate file so the ***$scope*** object needs to be *injected* into the controller (as well as the donations). 
+
+**This wasn't an issue in our Angular version as everything was inside the one file (same scope).**
+
+
