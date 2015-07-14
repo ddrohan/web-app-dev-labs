@@ -66,7 +66,7 @@ The problem lies in the fact that this controller is in a separate file so the *
 
 So here are the changes we need to make
 
-```HTML
+```CODE
 var app = angular.module('DonationWebApp');
 
 app.controller('donationsController', <pre><b>['$scope','donations'</b></pre>, function($scope, donations) {
