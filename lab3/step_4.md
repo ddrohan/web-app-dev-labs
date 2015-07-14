@@ -69,7 +69,7 @@ So here are the changes we need to make
 ```javascript
 var app = angular.module('DonationWebApp');
 
-app.controller('donationsController', <pre> **['$scope','donations'** </pre>, function($scope, donations) {
+app.controller('donationsController', <pre> <b>['$scope','donations'</b> </pre>, function($scope, donations) {
     // create a message to display in our view
     $scope.message = 'Donations Page!';
     $scope.donations = donations;
