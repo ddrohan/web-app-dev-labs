@@ -34,7 +34,7 @@ There's a bit more work involved with last two controllers (***donatecontroller.
 It's probably worth testing your app again just to confirm that the controllers you've updated still work so point your browser at [http://localhost:3000](http://localhost:3000) and try it out.
 
 
-### NB - Make sure you've added a script reference to your file in your Shell Page (index.ejs)
+### NOTE - Make sure you've added a script reference to your controller files in your Shell Page (index.ejs)
 
 ---
 
