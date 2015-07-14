@@ -31,3 +31,5 @@ So initially, have a go at ***contactcontroller.js*** and ***maincontroller.js**
 
 There's a bit more work involved with last two controllers (***donatecontroller.js*** & ***donationscontroller.js***) so we'll complete those separately.
 
+It's probably worth testing your app again just to confirm that the controllers you've updated still work so 
+
