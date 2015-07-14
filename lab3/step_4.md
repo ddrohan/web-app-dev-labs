@@ -39,6 +39,23 @@ It's probably worth testing your app again just to confirm that the controllers 
 To begin with, take the same approach with this controller as the previous ones, just move it into its own file and add the line of code at the top, so you'll have something like this
 
 ```javascript
+var app = angular.module('DonationWebApp');
+
+app.controller('donationsController', function($scope, donations) {
+    // create a message to display in our view
+    $scope.message = 'Donations Page!';
+    $scope.donations = donations;
+
+      $scope.delete = function(donation){
+      if (confirm("Are you sure you want to delete? : ")) {
+          donations.deleteDonation(donation);
+         }       
+      };
+
+        $scope.incrementUpvotes = function(donation){
+          donations.incrementUpvotes(donation);
+      };
+  });
 
 ```
 
