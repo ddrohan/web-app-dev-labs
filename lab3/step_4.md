@@ -86,5 +86,12 @@ app.controller('donationsController', ['$scope','donations', function($scope, do
   }
   ]);
 ```
-Notice how we *inject* **$scope** and **donations** into our controller and we need to do the same with our **donateController** controller.
+Notice how we *inject* **$scope** and **donations** into our controller and we need to do the same with our **donateController** controller (and a bit more!)
+
+---
+
+## Our 'donateController' and D.I.
+Once again, take the same approach with this controller as the previous ones, just move it into its own file and add the line of code at the top.
+
+As we're displaying and posting form data through this controller we are going to make use of the **$scope.formData** object and 'package up' everything we need to display and post.
 
