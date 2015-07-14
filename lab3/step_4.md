@@ -29,3 +29,5 @@ app.controller('aboutController', ['$scope', function($scope) {
 ```
 So initially, have a go at ***contactcontroller.js*** and ***maincontroller.js***.
 
+There's a bit more work involved with last two controllers (***donatecontroller.js*** & ***donationscontroller.js***) so we'll complete those separately.
+
