@@ -58,4 +58,6 @@ app.controller('donationsController', function($scope, donations) {
   });
 
 ```
+If you try and test it, it may still not be functioning correctly - can you explain why, and how to fix it?
+
 
