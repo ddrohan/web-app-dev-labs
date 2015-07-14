@@ -8,3 +8,6 @@ We only need to modify our **donate.ejs** view and there's actually only 2 minor
 And just for completeness you should have something like this as your final project structure
 
 ![](../images/donationweb-3.0.finish.png)
+
+
+## Well Done!
