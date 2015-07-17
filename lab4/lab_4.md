@@ -1,6 +1,6 @@
 #Lab 4 - Donation 4.0 (EAN Part 2)
 
-Up to this point, we've been working locally (no Server running) and just rendering our local files to the (Safari) Browser. From now on, things will get a lot more interesting in that we will be building a proper client-server web app, using NodeJS for the server-side stuff and reusing our AngularJS code for the client-side.
+Even though 'technically' we built a client-server web app in the previous lab, the majority of the functionality remained on the client-side (we still did everything through Angular).
 
-In this lab we won't be adding any extra functionality as such, but more importantly, we will be developing a Web App with a **NodeJS** back-end using **express** to scaffold it, with an **AngularJS** front-end.
+In this lab we will be moving/implementing that functionality to the **NodeJS server** and making ***requests*** via our **AngularJS** front-end - the essence of a proper MEAN based Web App (without the Mongo for the moment obviously!) 
 
