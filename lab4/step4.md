@@ -37,3 +37,6 @@ router.findAll = function(req, res) {
 module.exports = router;
 ```
 
+
+
+By right, we
