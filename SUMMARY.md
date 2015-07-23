@@ -31,6 +31,6 @@
        * [Step 1 - Objectives](lab4/step_1.md)
        * [Step 2 - Setup](lab4/step_2.md)
        * [Step 3 - Creating our 'Model'](lab4/step_3.md)
-       * [Step4 - Adding our 'Routes', Part 1 ('home' & 'findAll')](lab4/step4.md)
+       * [Step 4 - Adding our 'Routes', Part 1 ('home' & 'findAll')](lab4/step4.md)
        * [Step 5 - Updating our 'Views' Part 1](lab4/step_5.md)
 
