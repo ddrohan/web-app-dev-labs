@@ -16,3 +16,11 @@ The actions map directly to several routes, which are described as follows:
 * GET **/donations/:id** - return an individual donation with associated metadata
 * PUT **/donations/:id/upvote** - upvote a donation, notice we use the donation ID in the URL
 * DELETE **/donations/:id** - delete a donation by ID
+
+---
+## Creating Our First Route
+
+To keep things simple we will be defining these routes in a **routes/donation.js** file. 
+
+Let's begin by opening up the first route we listed, which should return a **JSON** list containing all donations.
+
