@@ -20,7 +20,11 @@ The actions map directly to several routes, which are described as follows:
 ---
 ## Creating Our First Route
 
-To keep things simple we will be defining these routes in a **routes/donation.js** file. 
+To keep things organised we will be defining these routes in a **routes/donation.js** file. 
 
-Let's begin by opening up the first route we listed, which should return a **JSON** list containing all donations.
+Let's begin by opening up the first route we listed, which should return a **JSON** list containing all donations. We start by creating a ***GET*** route for retrieving donations in our **routes/donation.js** file.
+
+```javascript
+
+```
 
