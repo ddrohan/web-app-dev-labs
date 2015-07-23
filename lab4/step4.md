@@ -22,7 +22,7 @@ The actions map directly to several routes, which are described as follows:
 
 To keep things organised we will be defining these routes in a **routes/donations.js** file. 
 
-Let's begin by opening up the first route we listed, which should return a **JSON** list containing all donations. We start by creating a function (***findAll***) for retrieving donations in our **routes/donation.js** file.
+Let's begin by opening up the first route we listed, which should return a **JSON** list containing all donations. We start by creating a function (***findAll***) for retrieving donations in our **routes/donations.js** file.
 
 ```javascript
 var donations = require('../models/donations');
