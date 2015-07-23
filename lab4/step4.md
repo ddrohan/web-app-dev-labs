@@ -50,4 +50,6 @@ app.get('/donations', donations.findAll);
 ```
 to add the actual ***GET*** express route.
 
+As we already have data in our Model, we can test it as follows:
+
 
