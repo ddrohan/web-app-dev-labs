@@ -50,6 +50,8 @@ app.get('/donations', donations.findAll);
 ```
 to add the actual ***GET*** express route.
 
-As we already have data in our Model, we can test it as follows:
+As we already have data in our Model, we can test it by pointing the browser at [http://localhost:3000/donations](http://localhost:3000/donations) and we should get back a json string of our data, like so
+
+
 
 
