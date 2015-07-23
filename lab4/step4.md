@@ -25,6 +25,15 @@ To keep things organised we will be defining these routes in a **routes/donation
 Let's begin by opening up the first route we listed, which should return a **JSON** list containing all donations. We start by creating a ***GET*** route for retrieving donations in our **routes/donation.js** file.
 
 ```javascript
+var donations = require('../models/donations');
+var express = require('express');
+var router = express.Router();
 
+router.findAll = function(req, res) {
+  // Return a JSON representation of our list
+    res.json(donations);
+}
+
+module.exports = router;
 ```
 
