@@ -30,4 +30,5 @@
    * [Lab 4 - Donation 4.0 (EAN Part 2)](lab4/lab_4.md)
        * [Step 1 - Objectives](lab4/step_1.md)
        * [Step 2 - Setup](lab4/step_2.md)
+       * Step 3 - Creating our 'Model'
 
