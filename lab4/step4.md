@@ -58,7 +58,7 @@ As we already have data in our Model, we can test it by pointing the browser at 
 ---
 ## Creating Our Second Route - 'Go Home'
 
-We don't necessarily need this route but it's a useful exercise so we're going to create a simple function (and route) to redirect the user back to the home page if any route other than those expected is processed.
+We don't necessarily need this route but it's a useful exercise so we're going to create a simple function (and route) to redirect the user back to the home page if any **GET** request other than those expected is processed.
 
 Here's the function (***home***) to be added to our **routes/donation.js** file
 
