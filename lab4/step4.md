@@ -14,5 +14,5 @@ The actions map directly to several routes, which are described as follows:
 * GET **/donations** - return a list of donations and associated metadata
 * POST **/donations** - create a new donation
 * GET **/donations/:id** - return an individual donation with associated metadata
-* PUT **/donations/:id/upvote** - upvote a donation, notice we use the post ID in the URL
+* PUT **/donations/:id/upvote** - upvote a donation, notice we use the donation ID in the URL
 * DELETE **/donations/:id** - delete a donation by ID
