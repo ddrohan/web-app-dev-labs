@@ -14,3 +14,5 @@ var donations = [
 
 module.exports = donations;
 ```
+Notice the extra field (id) in our model, this will be useful later on for deleting etc.
+
