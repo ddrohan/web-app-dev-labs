@@ -42,7 +42,18 @@ Next, inside our **app.js** we need to define the actual route which will trigge
 
 ---
 ## Creating Our 'Delete' Route - 'deleteDonation'
+Again, we start with the function in our **routes/donations.js** file
 
+```javascript
+router.deleteDonation = function(req, res) {
+    //Delete the selected donation based on its id
+    var donation = getByValue(donations,req.params.id);
+    var index = donations.indexOf(donation);
+    donations.splice(index, 1);  
+
+    router.findAll(req,res);
+}
+```
 
 ---
 ## Creating Our 'Upvote' Route - 'incrementVotes'
