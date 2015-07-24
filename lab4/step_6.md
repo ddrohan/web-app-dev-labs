@@ -38,6 +38,7 @@ router.addDonation = function(req, res) {
 ```
 Notice we only return a json message confirming we've added the donation.
 
+Next, inside our **app.js** we need to define the actual route which will trigger the above function so keeping in mind the route is **/donations** with a **POST** request, see can you make the necessary additions?
 
 ---
 ## Creating Our 'Delete' Route - 'deleteDonation'
