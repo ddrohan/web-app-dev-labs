@@ -34,5 +34,5 @@
        * [Step 4 - Adding our 'Routes', Part 1 ('home' & 'findAll')](lab4/step4.md)
        * [Step 5 - Updating our 'Views' Part 1](lab4/step_5.md)
        * [Step 6 - Adding our 'Routes', Part 2 ('Add', 'Delete' & 'UpVotes')](lab4/step_6.md)
-       * Step 7 - Updating our 'Views', Part 2
+       * [Step 7 - Updating our 'Views', Part 2](lab4/step_7.md)
 
