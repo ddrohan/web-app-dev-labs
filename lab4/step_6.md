@@ -54,6 +54,11 @@ router.deleteDonation = function(req, res) {
     router.findAll(req,res);
 }
 ```
+and update our **app.js** accordingly
+
+```javascript
+
+```
 
 ---
 ## Creating Our 'Upvote' Route - 'incrementVotes'
