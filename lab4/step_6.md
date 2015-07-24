@@ -93,3 +93,5 @@ router.incrementUpvotes = function(req, res) {
 ```javascript
 app.put('/donations/:id/votes', donations.incrementUpvotes);
 ```
+
+So that's the Server-Side of things done!
