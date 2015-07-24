@@ -17,3 +17,13 @@ We've already implemented the first one, so now let's have a go at
 
 We'll leave finding an individual donation for the final lab - Lab 5.
 
+---
+## Creating Our 'Add' Route - 'addDonation'
+
+
+---
+## Creating Our 'Delete' Route - 'deleteDonation'
+
+---
+## Creating Our 'Upvote' Route - 'incrementVotes'
+
