@@ -19,7 +19,7 @@ We'll leave finding an individual donation for the final lab - Lab 5.
 
 ---
 ## Creating Our 'Add' Route - 'addDonation'
-Similar to the previous step, we start by creating a function (***addDonation***) for adding a single donation in our **routes/donations.js** file.
+Similar to the previous step, we start by creating a function (***addDonation***) for adding a single donation in our **routes/donations.js** file
 
 ```javascript
 router.addDonation = function(req, res) {
@@ -57,8 +57,20 @@ router.deleteDonation = function(req, res) {
 and update our **app.js** accordingly
 
 ```javascript
-
+app.delete('/donations/:id', donations.deleteDonation);
 ```
+
+We also need to write our own 'lookup' function to find a particular donation so make sure you add the following to your **routes/donations.js** file but be sure you understand how it works....
+
+```javascript
+function getByValue(arr, id) {
+
+  var result  = arr.filter(function(o){return o.id == id;} );
+
+  return result ? result[0] : null; // or undefined
+}
+```
+
 
 ---
 ## Creating Our 'Upvote' Route - 'incrementVotes'
