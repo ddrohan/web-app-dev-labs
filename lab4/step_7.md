@@ -13,6 +13,8 @@ As with Step 5, we need to wire up the angular frontend to allow donations to be
 ---
 ## Updating 'donationsController' with 'DELETE' request
 
+---
+## Updating 'donationsController' with 'PUT' request
 
 
 ---
