@@ -19,6 +19,24 @@ We'll leave finding an individual donation for the final lab - Lab 5.
 
 ---
 ## Creating Our 'Add' Route - 'addDonation'
+Similar to the previous step, we start by creating a function (***addDonation***) for adding a single donation in our **routes/donations.js** file.
+
+```javascript
+router.addDonation = function(req, res) {
+    //Add a new donation to our list
+    var id = Math.floor((Math.random() * 1000000) + 1); //Randomly generate an id
+    // parameters to store
+    // id (for id)
+    // req.body.paymenttype (for paymenttype)
+    // req.body.amount (for amount)
+    // 0 (for upvotes)
+    
+    donations.push(/*fill in missing code here */);
+
+    res.json({ message: 'Donation Added!'});
+}
+```
+Notice we only return a json message confirming we've added the donation.
 
 
 ---
