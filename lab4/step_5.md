@@ -40,6 +40,9 @@ $http.get('/donations')
 ```
 We're using the **$http** object so you need to make sure you ***inject*** this into your controller and also remove the **donations** object previously injected as this is the angular object - which doesn't exist anymore!
 
+
+## Be Very Clear about how this Works....
+
 Now, as we already have data in our Model, (which we tested in the previous step) point the browser at [http://localhost:3000/](http://localhost:3000/), navigate to the 'View All Donations' page and we should see the following
 
 
