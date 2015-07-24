@@ -51,7 +51,7 @@ router.deleteDonation = function(req, res) {
     var index = donations.indexOf(donation);
     donations.splice(index, 1);  
 
-    router.findAll(req,res);
+    router.findAll(req,res); //CAN YOU EXPLAIN WHY THIS IS NEEDED?
 }
 ```
 and update our **app.js** accordingly
@@ -71,8 +71,25 @@ function getByValue(arr, id) {
 }
 ```
 
-
 ---
 ## Creating Our 'Upvote' Route - 'incrementVotes'
 
+Finally, here's what we need to implement the 'Upvote' route
 
+**routes/donations.js**
+
+```javascript
+router.incrementUpvotes = function(req, res) {
+    //Add 1 to upvotes property of the selected donation based on its id
+    var donation = getByValue(donations,req.params.id);
+    donation.upvotes += 1;
+
+    router.findAll(req,res);      
+}
+```
+
+**app.js**
+
+```javascript
+app.put('/donations/:id/votes', donations.incrementUpvotes);
+```
