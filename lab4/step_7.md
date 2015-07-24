@@ -7,6 +7,12 @@ As with Step 5, we need to wire up the angular frontend to allow donations to be
 * Deleted
 * Upvoted
 
+---
+## Updating 'donateController' with 'POST' request
+
+---
+## Updating 'donationsController' with 'DELETE' request
+
 
 
 ---
