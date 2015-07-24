@@ -38,3 +38,5 @@ $http.get('/donations')
             console.log('Error: ' + data);
         });
 ```
+We're using the **$http** object so you need to make sure you ***inject*** this into your controller and also remove the **donations** object previously injected as this is the angular object - which doesn't exist anymore!
+
