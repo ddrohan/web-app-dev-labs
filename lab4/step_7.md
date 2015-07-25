@@ -76,7 +76,7 @@ $scope.incrementUpvotes = function(id){
 ---
 ## Updating our .ejs pages
 
-There's actually very little required for this part, and if you followed the previous step closely, ***especially the implementation of the routes in donations.js (and how we delete)*** you should be able to make the minimal changes in **donations.ejs**
+There's actually very little required for this part, and if you followed the previous changes closely, ***especially the implementation of the routes in donations.js in Step 6 (and how we delete in this Step)*** you should be able to make the minimal changes in **donations.ejs**
 
 Once you've made all these modifications and updates, you should be able to navigate to [http://localhost:3000/](http://localhost:3000/), and use all the features of the web app (except update :-) )
 
