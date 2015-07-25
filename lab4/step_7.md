@@ -12,6 +12,27 @@ As with Step 5, we need to wire up the angular frontend to allow donations to be
 
 Similar to the *donationsController*, we need to inject the **$http** object and remove the **donations** object, so go ahead and do that now. 
 
+Next, replace the existing **addDonation()** function with the following
+
+```javascript
+$scope.addDonation = function(){
+      $scope.formData.paymenttype = $scope.formData.paymentOptions.name;
+       $http.post('/donations', /*enter a parameter here*/)
+            .success(function(data) {
+                $scope.donations = data;
+                $location.path('/donations');
+                console.log(data);
+            })
+            .error(function(data) {
+                console.log('Error: ' + data);
+              });
+            };
+```
+
+And try and work out what parameter object you need to pass to the POST request. Now, test your web app by trying to add a donation, and try and fix the error.
+
+**(HINT - it involves injecting an object into the controller)**
+
 ---
 ## Updating 'donationsController' with 'DELETE' request
 
