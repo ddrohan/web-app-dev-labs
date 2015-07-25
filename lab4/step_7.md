@@ -10,6 +10,8 @@ As with Step 5, we need to wire up the angular frontend to allow donations to be
 ---
 ## Updating 'donateController' with 'POST' request
 
+Similar to the *donationsController*, we need to inject the **$http** object and remove the **donations** object, so go ahead and do that now. 
+
 ---
 ## Updating 'donationsController' with 'DELETE' request
 
