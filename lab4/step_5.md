@@ -4,6 +4,8 @@ Now that we have our basic backend implemented, we're going to wire up the angul
 
 Our first step is going to be to query our new backend for all **donations** using the ***donations*** route. We do this by adding a new function inside our **donationscontroller**.
 
+---
+## Updating 'donationsController' with 'GET' request
 Our current controller looks like this
 
 ```javascript
