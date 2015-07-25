@@ -36,14 +36,47 @@ And try and work out what parameter object you need to pass to the POST request.
 ---
 ## Updating 'donationsController' with 'DELETE' request
 
+Here's what you need for the DELETE request
+
+```javascript
+$scope.delete = function(id) {
+      if (confirm("Are you sure you want to delete?")) {
+              console.log('Deleting id : ' + id);
+        $http.delete('/donations/' + id)
+            .success(function(data) {
+                $scope.donations = data;
+                console.log(data);
+            })
+            .error(function(data) {
+                console.log('Error: ' + data);
+            });
+          }
+    };
+```
+Notice how we append the **id** to the request, which is passed in as a parameter - **this is important so be sure where it comes from, and why we need it**.
+
 ---
 ## Updating 'donationsController' with 'PUT' request
+And finally, this is how we 'Upvote' a donation via a PUT request
+
+```javascript
+$scope.incrementUpvotes = function(id){
+          $http.put('/donations/' + id + '/votes')
+            .success(function(data) {
+                $scope.donations = data;
+                console.log(data);
+            })
+            .error(function(data) {
+                console.log('Error: ' + data);
+            });
+          }
+```
 
 
 ---
 ## Updating our .ejs pages
 
-There's actually very little required for this part, and if you followed the previous step closely, ***especially the implementation of the routes in donations.js*** you should be able to make the minimal changes in **donations.ejs**
+There's actually very little required for this part, and if you followed the previous step closely, ***especially the implementation of the routes in donations.js (and how we delete)*** you should be able to make the minimal changes in **donations.ejs**
 
 Once you've made all these modifications and updates, you should be able to navigate to [http://localhost:3000/](http://localhost:3000/), and use all the features of the web app (except update :-) )
 
