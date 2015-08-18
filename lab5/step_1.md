@@ -8,3 +8,7 @@ On completion of this lab you'll be able to
 * run this app as a **NodeJS Server** and process client requests
 * be able to use **npm** to install dependency modules
 * be able to create **client-side** requests in **Angular** and render the results in our **Views**
+
+AND
+
+* store data in a **MongoDB** database
