@@ -13,3 +13,13 @@ and to run a mongo client
 mongo
 ```
 
+We connect to our local MongoDB instance by adding the following code into our donations.js **routes** file:
+
+```
+var mongo = require('mongodb');
+var mongoose = require('mongoose'); 
+
+...
+
+mongoose.connect('mongodb://localhost:27017/donationsdb');
+```
