@@ -37,6 +37,6 @@
        * [Step 7 - Updating our 'Views', Part 2](lab4/step_7.md)
        * [Solution](lab4/solution.md)
    * [Lab 5 - Donation 5.0 (MEAN)](lab_5.md)
-       * Step 1 - Objectives
+       * [Step 1 - Objectives](step_1.md)
        * Step 2 - Setup
 
