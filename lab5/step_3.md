@@ -52,7 +52,7 @@ So as before, go ahead and fire up the server - but make sure your mongodb is ru
 
 Did you get an Error?? (You probably did...)
 
-Did you install the 'mongoose' and 'mongodb' modules?? (You probably didn't!)
+Did you install the **'mongoose'** and **'mongodb'** modules?? (You probably didn't!! )
 
 run these commands and then try again
 
@@ -66,4 +66,4 @@ npm install mongodb
 ```
 and if you check your running mongodb instance, you should see that a connection has been accepted, something like this
 
-
+![](../images/lab5.step3.1.jpg)
