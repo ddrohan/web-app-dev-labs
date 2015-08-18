@@ -5,5 +5,11 @@ Our first step in making a persistent data store is to configure our data models
 If Mongo isn't running on your machine, enter this into your terminal:
 
 ```
-mongod &
+mongod
 ```
+and to run a mongo client
+
+```
+mongo
+```
+
