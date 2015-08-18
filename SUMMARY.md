@@ -38,4 +38,5 @@
        * [Solution](lab4/solution.md)
    * Lab 5 - Donation 5.0 (MEAN)
        * Step 1 - Objectives
+       * Step 2 - Setup
 
