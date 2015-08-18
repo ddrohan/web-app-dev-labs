@@ -29,6 +29,19 @@ This will open a connection with the ***donationsdb*** database running on our M
 ---
 ## Creating a Schema with Mongoose
 
+In our **models/** directory edit **donations.js** and add the following code:
+
+```
+var mongoose = require('mongoose');
+
+var DonationSchema = new mongoose.Schema({
+  paymenttype: String,
+  amount: Number,
+  upvotes: {type: Number, default: 0}
+});
+
+module.exports = mongoose.model('Donation', DonationSchema);
+```
 
 
 
