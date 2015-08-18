@@ -46,4 +46,8 @@ Here we've defined a model called ***Donation*** with several attributes corresp
 
 Next we register that model with the global mongoose object we imported using require() so that it can be used to interact with the database anywhere else mongoose is imported.
 
+**It is strongly recommended to run your web server at this point, to ensure everything is configured correctly and before we go ahead an modify our routes to interact with the database.**
+
+So as before, go ahead and fire up the server - but make sure your mongodb is running first.
+
 
