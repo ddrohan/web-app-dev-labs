@@ -15,7 +15,7 @@ mongo
 
 We connect to our local MongoDB instance by adding the following code into our donations.js **routes** file:
 
-```
+```javascript
 var mongo = require('mongodb');
 var mongoose = require('mongoose'); 
 
@@ -31,7 +31,7 @@ This will open a connection with the ***donationsdb*** database running on our M
 
 In our **models/** directory edit **donations.js** and add the following code:
 
-```
+```javascript
 var mongoose = require('mongoose');
 
 var DonationSchema = new mongoose.Schema({
