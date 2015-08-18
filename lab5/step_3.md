@@ -42,6 +42,8 @@ var DonationSchema = new mongoose.Schema({
 
 module.exports = mongoose.model('Donation', DonationSchema);
 ```
+Here we've defined a model called ***Donation*** with several attributes corresponding to the type of data we'd like to store. We've declared our upvotes field to be initialized to 0.
 
+Next we register that model with the global mongoose object we imported using require() so that it can be used to interact with the database anywhere else mongoose is imported.
 
 
