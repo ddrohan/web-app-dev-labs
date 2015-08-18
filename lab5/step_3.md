@@ -26,4 +26,9 @@ mongoose.connect('mongodb://localhost:27017/donationsdb');
 
 This will open a connection with the ***donationsdb*** database running on our Mongo server. Now we can modify our existing model and introduce a database schema.
 
+---
+## Creating a Schema with Mongoose
+
+
+
 
