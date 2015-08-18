@@ -11,7 +11,7 @@ Edit your **routes/donations.js** file and navigate to your existing 'findAll' f
 
 Now, replace it with the following :
 
-```
+```javascript
 router.findAll = function(req, res) {
   // Use the Donation model to find all donations
   Donation.find(function(err, donations) {
@@ -32,7 +32,7 @@ Again, edit your **routes/donations.js** file and navigate to your existing 'add
 
 And replace it with the following :
 
-```
+```javascript
 router.addDonation = function(req, res) {
 
     var donation = new Donation();
