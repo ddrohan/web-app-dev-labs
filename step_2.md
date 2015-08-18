@@ -13,6 +13,6 @@ npm start
 
 if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and see the following
 
-![](../images/lab4.step5.1.png)
+![](../images/lab4.step2.1.png)
 
 Next Step!
