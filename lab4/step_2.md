@@ -4,7 +4,7 @@ First thing you should do is download the starter code (or the solution to the p
 
 Rename the extracted folder, (or copy your own version) to **donationweb-4.0**
 
-Just ot be safe, navigate to your **donationweb-4.0** folder and type the following to launch the server
+Just to be safe, navigate to your **donationweb-4.0** folder and type the following to launch the server
 
 ```
 npm start
