@@ -50,4 +50,20 @@ Next we register that model with the global mongoose object we imported using re
 
 So as before, go ahead and fire up the server - but make sure your mongodb is running first.
 
+Did you get an Error?? (You probably did...)
+
+Did you install the 'mongoose' and 'mongodb' modules?? (You probably didn't!)
+
+run these commands and then try again
+
+```
+npm install mongoose
+```
+and then
+
+```
+npm install mongodb
+```
+and if you check your running mongodb instance, you should see that a connection has been accepted, something like this
+
 
