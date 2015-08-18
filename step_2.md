@@ -15,5 +15,4 @@ if everything goes to plan you should be able to visit [http://localhost:3000](h
 
 ![](../images/lab4.step2.1.png)
 
-
 Next Step!
