@@ -17,6 +17,7 @@ router.findById = function(req, res) {
         });
 }
 ```
+We're using Mongoose's own 'findById', but this will make things easier for us later on.
 
 ---
 ## Modifying Our Third Route - 'Delete a Donation'
@@ -26,18 +27,23 @@ Edit your **routes/donations.js** file and navigate to your existing 'deleteDona
 Now, replace it with the following :
 
 ```javascript
-router.findAll = function(req, res) {
-  // Use the Donation model to find all donations
-  Donation.find(function(err, donations) {
-    if (err)
-      res.send(err);
+router.deleteDonation = function(req, res) {
 
-    res.json(donations);
+    var donation = new Donation();
+
+    var id = req.params.id;
+    console.log('Deleting donation: ' + id);
+    
+    Donation.findByIdAndRemove(id, function(err) {
+        if (err)
+            res.send(err);
+
+        router.findAll(req,res);
   });
 }
 ```
 
-Notice how we use the Mongoose 'find' function to retrieve all the objects from the 'Model'.
+Notice how we use the Mongoose 'findByIdAndRemove' function to retrieve and delete the object from the 'Model'.
 
 ---
 ## Modifying Our Fourth Route - 'Increment Votes'
