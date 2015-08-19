@@ -41,4 +41,5 @@
        * [Step 2 - Setup](lab5/step_2.md)
        * [Step 3 - Creating our Database Schema](lab5/step_3.md)
        * [Step 4 - Modifying our 'Routes', Part 1 ( 'findAll' & 'addDonation' )](lab5/step_4.md)
+       * Step 5 - Modifying our 'Routes', Part 2 ( 'deleteDonation' & 'incrementVotes' )
 
