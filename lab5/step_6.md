@@ -1,7 +1,7 @@
 # Step 6 - Updating our 'Views'
 
 
-If you go ahead and try and delete a 'donation' you'll probably get some kind of error - and it's to do with the parameter we're passing to our 'delete' function on the client side - it's the wrong one.
+If you go ahead and try and delete or upvote a 'donation' you'll probably get some kind of error - and it's to do with the parameter we're passing to our 'delete' and 'incrementVotes' functions on the client side (in our .ejs file) - it's the wrong one.
 
 To fix this, you first need to identify what is the ***right*** parameter to pass so you need to find out what is being sent in the response JSON string to the 'List All Donations' request.
 
