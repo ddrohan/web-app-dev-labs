@@ -2,7 +2,7 @@
 
 The first thing we need to do is add a new function to allow us to find a single donation, so add the following to your **routes/donations.js**, replacing the **getByValue** function
 
-```
+```javascript
 router.findById = function(req, res) {
 
     var id = req.params.id;
@@ -48,29 +48,33 @@ Notice how we use the Mongoose 'findByIdAndRemove' function to retrieve and dele
 ---
 ## Modifying Our Fourth Route - 'Increment Votes'
 
-Again, edit your **routes/donations.js** file and navigate to your existing 'addDonation' function.
+Again, edit your **routes/donations.js** file and navigate to your existing 'incrementVotes' function.
 
 And replace it with the following :
 
 ```javascript
-router.addDonation = function(req, res) {
+router.incrementUpvotes = function(req, res) {
 
-    var donation = new Donation();
+    var id = req.params.id;
     
-    donation.paymenttype = req.body.paymenttype;
-    donation.amount = req.body.amount;
-
-    console.log('Adding donation: ' + JSON.stringify(donation));
+    console.log('Incrementing votes for Id: ' + id);
     
-    // Save the donation and check for errors
-  donation.save(function(err) {
-    if (err)
-      res.send(err);
+    Donation.findById(id, function(err,donation) {
+        if (err)
+            res.send(err);
 
-      res.json({ message: 'Donation Added!', data: donation });
+        donation.upvotes += 1;
+        donation.save(function(err) {
+            if (err)
+                res.send(err);
+            console.log('Votes Incremented: ' + id);
+            //res.json({ message: 'Donation Added!', data: donation });
+            router.findAll(req,res); 
+            }); 
+
   });
 }
 ```
-There's a bit more going on here, so make sure you understand the general jist of how this works. (But I'll explain in the labs anyway)
+Like last time, there's a bit more going on here, so make sure you understand the general jist of how this works. (But I'll explain in the labs if necessary?)
 
-You may need to restart your server but if everything goes to plan, you should now be able to store and retrieve 'donations' from your mongodb database.
+You may need to restart your server but if everything goes to plan, you ***might*** now be able to delete and 'upvote' donations from your mongodb database.
