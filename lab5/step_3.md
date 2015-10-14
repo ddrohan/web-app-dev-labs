@@ -24,6 +24,8 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/donationsdb');
 ```
 
+(It's probably a good idea to remove our javascript list altogether at this point as we don't need it.)
+
 This will open a connection with the ***donationsdb*** database running on our Mongo server. Now we can modify our existing model and introduce a database schema.
 
 ---
