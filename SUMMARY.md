@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * Deploying our App to Heroku
+   * [Deploying our App to Heroku](deploy_to_heroku.md)
        * Step 01 - Requirements
 * [MEAN Setup](mean_setup.md)
    * [AngularJS](angularjs.md)
