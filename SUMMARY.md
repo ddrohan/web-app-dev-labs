@@ -45,5 +45,5 @@
        * [Step 6 - Updating our 'Views'](lab5/step_6.md)
        * [Solution](lab5/solution.md)
 * [Deploying our App to Heroku](heroku/deploy_to_heroku.md)
-       * Step 01 - Requirements
+       
 
