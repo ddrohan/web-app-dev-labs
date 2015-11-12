@@ -13,3 +13,4 @@ Before you can deploy to heroku using this lab you need to have the following do
 5. [Bitbucket](http://bitbucket.org) or [GitHub](http://github.com) Account (I'll be using Bitbucket here)
 6. [SourceTree](https://www.sourcetreeapp.com)
 
+
