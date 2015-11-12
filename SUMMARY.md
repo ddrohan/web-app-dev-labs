@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Deploying our App to Heroku
 * [MEAN Setup](mean_setup.md)
    * [AngularJS](angularjs.md)
    * [NodeJS](nodejsmd.md)
