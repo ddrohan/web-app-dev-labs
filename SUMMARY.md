@@ -46,5 +46,5 @@
        * [Solution](lab5/solution.md)
 * [Deploying our App to Heroku](heroku/deploy_to_heroku.md)
    * [Step 01 - Requirements](heroku/step01.md)
-   * Step 03 - The Heroku Toolbelt
+   * [Step 03 - The Heroku Toolbelt](heroku/step03.md)
 
