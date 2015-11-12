@@ -7,7 +7,7 @@
    * [Express](express.md)
    * [MongoDB](mongodb.md)
 * [Deploying our App to Heroku](heroku/deploy_to_heroku.md)
-       * [Step 01 - Requirements](heroku/step01.md)
+   * [Step 01 - Requirements](heroku/step01.md)
 * [Practical Labs](practical_labs.md)
    * [Lab 1 - Donation 1.0 (Angular App)](lab1/lab_1.md)
        * [Step 1 - Objectives](lab1/step_1.md)
