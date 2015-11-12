@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Deploying our App to Heroku](deploy_to_heroku.md)
-       * Step 01 - Requirements
 * [MEAN Setup](mean_setup.md)
    * [AngularJS](angularjs.md)
    * [NodeJS](nodejsmd.md)
@@ -46,4 +44,6 @@
        * [Step 5 - Modifying our 'Routes', Part 2 ( 'deleteDonation' & 'incrementVotes' )](lab5/step_5.md)
        * [Step 6 - Updating our 'Views'](lab5/step_6.md)
        * [Solution](lab5/solution.md)
+* [Deploying our App to Heroku](heroku/deploy_to_heroku.md)
+       * Step 01 - Requirements
 
