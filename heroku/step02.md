@@ -20,9 +20,9 @@
 
 ![](images/heroku09.png)
 
-![](images/heroku10.png)
-
 Click the Commit button and enter a brief description
+
+![](images/heroku10.png)
 
 ![](images/heroku11.png)
 
