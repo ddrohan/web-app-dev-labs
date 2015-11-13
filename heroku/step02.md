@@ -4,7 +4,7 @@
 
 ![](images/heroku02.png)
 
-![](images/heroku02a.png)
+![](images/heroku2a.png)
 
 ![](images/heroku03.png)
 
