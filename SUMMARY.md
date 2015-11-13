@@ -48,5 +48,5 @@
    * [Step 01 - Requirements](heroku/step01.md)
    * [Step 02 - Using BitBucket & SourceTree](heroku/step02.md)
    * [Step 03 - The Heroku Toolbelt](heroku/step03.md)
-   * Step 04 - Heroku & MongoLab
+   * [Step 04 - Heroku & MongoLab](heroku/step04.md)
 
