@@ -20,7 +20,7 @@
 
 ![](images/heroku09.png)
 
-Click the Commit button and enter a brief description
+Click the 'Commit' button and enter a brief description
 
 ![](images/heroku10.png)
 
