@@ -8,3 +8,14 @@ After you've installed the Toolbelt, you have access to the heroku command. Go i
 $ heroku
 ~~~
 
+~~~
+$ heroku login
+~~~
+
+~~~
+$ heroku create donationwebtest
+~~~
+
+~~~
+$ git push heroku master
+~~~
