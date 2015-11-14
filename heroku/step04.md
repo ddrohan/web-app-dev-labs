@@ -12,6 +12,8 @@ As previously mentioned, you app failed to launch due to no backend database pre
 
 ![](images/heroku27.png)
 
+![](images/heroku27a.png)
+
 ![](images/heroku28.png)
 
 ![](images/heroku29.png)
