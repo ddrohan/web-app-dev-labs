@@ -12,7 +12,7 @@ I also set the language to <b>Javascript</b> (as below) but this is purely for c
 
 ![](images/heroku2a.png)
 
-You now have a number of different options to populate your repository (repo) but we're going to use <b>SourceTree</b> for this, so go ahead and choose 'clone in SourceTree'
+You now have a number of different options to populate your repository (repo) but we're going to use <b>SourceTree</b> for this, so go ahead and choose 'Clone in SourceTree'
 
 ![](images/heroku03.png)
 
