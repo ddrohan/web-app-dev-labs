@@ -56,4 +56,8 @@ and you should get a long list of deployment messages (as below)
 
 You should then be able to visit http://myherokuappname.herokuapp.com and see your node web app in all its glory.
 
+For our example though, things aren't looking so good? Have you any idea why?
+
 ![](images/heroku22.png)
+
+(We'll fix this in the final step!)
