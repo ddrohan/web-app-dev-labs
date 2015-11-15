@@ -46,11 +46,13 @@ and all our files will be synced with our remote BitBucket repo.
 
 ![](images/heroku12.png)
 
-Now, visit your previously created repo online, go to the 'source' option, and you should see the same list of files - Congratulations! You've just committed your first set of file to a remote repository (which you can share, clone, etc.)
+Now, visit your previously created repo online, go to the 'source' option, and you should see the same list of files - Congratulations! You've just committed your first set of files to a remote repository (which you can share, clone, etc.)
 
 ![](images/heroku13.png)
 
 ![](images/heroku14.png)
+
+Just as an exercise, go ahead an make a change to some file(s) in your local repo and see can you 'commit' those changes to your remote repo, like I've done here.
 
 ![](images/heroku15.png)
 
