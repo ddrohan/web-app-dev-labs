@@ -10,6 +10,10 @@ After you've installed the Toolbelt, you have access to the heroku commands. Go 
 $ heroku
 ~~~
 ![](images/heroku17.png)
+
+You get a full list of the available Heroku commands, but we'l only be using a few of them.
+
+The next step is to login to your (already created!) Heroku account, so at the command line, type
 ~~~
 $ heroku login
 ~~~
