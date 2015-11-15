@@ -44,9 +44,13 @@ and Heroku will generate a random web app name for you?
 Visit your Heroku Account online to confirm your app was created successfully.
 
 ![](images/heroku20.png)
+
+Now, to deploy your web app to Heroku type the following (once you've already created a git repo)
 ~~~
 $ git push heroku master
 ~~~
+
+and you should get a long list of deployment messages (as below)
 
 ![](images/heroku21.png)
 
