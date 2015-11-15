@@ -16,6 +16,8 @@ You now have a number of different options to populate your repository (repo) bu
 
 ![](images/heroku03.png)
 
+Choose a local folder to 'sync' with your remote repo and click 'Clone'. This will now create a local copy of your remote repo you've just created on BitBucket - but it's empty, so let's add some files to our repo.
+
 ![](images/heroku04.png)
 
 ![](images/heroku05.png)
