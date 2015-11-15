@@ -1,8 +1,14 @@
 # Step 02 - Using BitBucket & SourceTree
 
+Once you have your BitBucket account set up, go ahead and create a new repository
+
 ![](images/heroku01.png)
 
+In this lab I'll be naming it <b>donationwebtest</b> but once you call it something relevant you'll be fine.
+
 ![](images/heroku02.png)
+
+I also set the language to <b>Javascript</b> (as below) but this is purely for completeness
 
 ![](images/heroku2a.png)
 
