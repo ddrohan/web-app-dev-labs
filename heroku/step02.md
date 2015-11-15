@@ -22,9 +22,13 @@ Choose a local folder to 'sync' with your remote repo and click 'Clone'. This wi
 
 ![](images/heroku05.png)
 
+Navigate to you local folder in Windows Explorer or Finder and copy in some files - in this Example I'm copying in the solution to our donationweb-5.0 web app, but be careful <b>NOT</b> to copy the hidden .git folder
+
 ![](images/heroku06.png)
 
 ![](images/heroku07.png)
+
+If you now switch back to SourceTree, you'll see a list of all the files in our local folder that have yet to be <i>pushed</i> and/or <i>committed</i> to our remote repo.
 
 ![](images/heroku08.png)
 
