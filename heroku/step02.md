@@ -32,6 +32,8 @@ If you now switch back to SourceTree, you'll see a list of all the files in our 
 
 ![](images/heroku08.png)
 
+'Tick' the unstaged file checkbox and you'll get something like this
+
 ![](images/heroku09.png)
 
 Click the 'Commit' button and enter a brief description
