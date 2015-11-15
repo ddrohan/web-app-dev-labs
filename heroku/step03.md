@@ -17,10 +17,28 @@ The next step is to login to your (already created!) Heroku account, so at the c
 ~~~
 $ heroku login
 ~~~
+
+and enter your Heroku credentials
+
 ![](images/heroku18.png)
+
+Now type
 ~~~
 $ heroku create donationwebtest
 ~~~
+
+where 'donationwebtest' is the name of the web app you wish to create.
+
+<b>Note : the web app name needs to be unique, so if a node web app already exists with the name you've chosen, you'll get an error</b>
+
+You can always leave the name empty
+
+~~~
+$ heroku create
+~~~
+
+and Heroku will generate a random web app name for you?
+
 ![](images/heroku19.png)
 
 Visit your Heroku Account online to confirm your app was created successfully.
