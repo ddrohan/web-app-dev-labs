@@ -54,4 +54,6 @@ and you should get a long list of deployment messages (as below)
 
 ![](images/heroku21.png)
 
+You should then be able to visit http://myherokuappname.herokuapp.com and see your node web app in all its glory.
+
 ![](images/heroku22.png)
