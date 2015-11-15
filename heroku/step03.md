@@ -31,6 +31,8 @@ where 'donationwebtest' is the name of the web app you wish to create.
 
 <b>Note : the web app name needs to be unique, so if a node web app already exists with the name you've chosen, you'll get an error</b>
 
+![](images/heroku19.png)
+
 You can always leave the name empty
 
 ~~~
@@ -38,8 +40,6 @@ $ heroku create
 ~~~
 
 and Heroku will generate a random web app name for you?
-
-![](images/heroku19.png)
 
 Visit your Heroku Account online to confirm your app was created successfully.
 
