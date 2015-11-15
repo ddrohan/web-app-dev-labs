@@ -1,6 +1,6 @@
 # Step 04 - Heroku & MongoLab
 
-As previously mentioned, you app failed to launch due to no backend database present - this final step will take you through the process of setting up a mongodb database via Heroku's addon <b>MongoLab</b>
+As previously mentioned, the web app didn't load correctly. It failed to launch due to no backend database present - this final step will take you through the process of setting up a mongodb database via one of Heroku's many addons <b>MongoLab</b>
 
 ![](images/heroku23.png)
 
