@@ -66,6 +66,8 @@ Now ,the last thing you need to do, is 'commit' your changes and deploy your app
 
 ![](images/heroku34.png)
 
+As a final confirmation that everything is working correctly, just add a donation and check that it's in your mongodb database.
+
 ![](images/heroku35.png)
 
 ![](images/heroku36.png)
