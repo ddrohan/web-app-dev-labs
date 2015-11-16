@@ -54,8 +54,9 @@ var mongooseUri = uriUtil.formatMongoose(mongodbUri);
 
 //mongoose.connect('mongodb://localhost:27017/donationsdb');
 mongoose.connect(mongooseUri,options);
-
 ~~~
+
+Now ,the last thing you need to do, is 'commit' your changes and deploy your app to Heroku again.  You can do this either through the command line or SourceTree, but I've noticed that the odd time SourceTree doesn't work correctly, so if you don't see all the deployment messages through SourceTree, just complete the deployment from the command line.
 
 ![](images/heroku31.png)
 
