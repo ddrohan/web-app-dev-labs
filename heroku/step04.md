@@ -43,6 +43,17 @@ The penultimate step is to set up the connection in your node web app, so go to 
 Something like this
 
 ~~~
+var options = { server: { socketOptions: { keepAlive: 1, connectTimeoutMS: 30000 } }, 
+                replset: { socketOptions: { keepAlive: 1, connectTimeoutMS : 30000 } },
+                user: 'YOURMONGODBUSERNAME', pass: 'YOURMONGODBPASSWORD' };  
+
+//ENTER YOUR MONGODB CONNECTION STRING HERE IN PLACE OF MY ONE
+var mongodbUri = 'mongodb://ds063XXX.mongolab.com:63892/heroku_XXXXXXXX';
+var mongooseUri = uriUtil.formatMongoose(mongodbUri);
+
+
+//mongoose.connect('mongodb://localhost:27017/donationsdb');
+mongoose.connect(mongooseUri,options);
 
 ~~~
 
