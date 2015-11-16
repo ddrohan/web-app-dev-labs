@@ -22,13 +22,19 @@ and a randomly generated database (as below)
 
 ![](images/heroku27.png)
 
-The connection string is very important
+The connection string is very important, as this is how we will connect to our mongo database in our web app.
 
 ![](images/heroku27a.png)
 
+There is also a default user set up, but I find it easier to add a new user (as it's easier to remember the username and password that we'll need later to connect to our database in our javascript code).
+
 ![](images/heroku28.png)
 
+So go ahead and create/add a new user.
+
 ![](images/heroku29.png)
+
+You can delete the default user if you wish, but it's not a requirement for all this to work. Here, we now have only 1 user - daveyd (me!).
 
 ![](images/heroku30.png)
 
