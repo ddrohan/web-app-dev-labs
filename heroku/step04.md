@@ -38,6 +38,14 @@ You can delete the default user if you wish, but it's not a requirement for all 
 
 ![](images/heroku30.png)
 
+The penultimate step is to set up the connection in your node web app, so go to your routes file 'donations.js' (in our example) and configure your web app to connect to the mongodb database and not your local db, as is currently the case.
+
+Something like this
+
+~~~
+
+~~~
+
 ![](images/heroku31.png)
 
 ![](images/heroku32.png)
